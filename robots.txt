@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jiumen.funvalvar.com/sitemap.xml
