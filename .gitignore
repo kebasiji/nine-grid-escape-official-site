@@ -1,0 +1,102 @@
+# ==========================================
+# 操作系统与平台文件 (OS Generated Files)
+# ==========================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ==========================================
+# 编辑器与 IDE 配置 (Editor & IDE)
+# ==========================================
+# VS Code (保留团队通用配置，忽略个人历史与状态)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (WebStorm / IDEA 等)
+.idea/
+*.iws
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# 临时交换文件 (Vim / Emacs / Text Editor)
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# ==========================================
+# 本地预览与运行缓存 (Python / Node / Tools)
+# ==========================================
+# Python 缓存 (对应本地 python3 -m http.server 及辅助脚本)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Node.js (如后续引入代码格式化、压缩或构建工具)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# 打包构建与临时目录
+dist/
+build/
+out/
+.temp/
+tmp/
+*.tmp
+
+# ==========================================
+# 敏感信息与环境变量 (Secrets & Local Env)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# 项目专属与审核隔离 (Project & Review Specific)
+# ==========================================
+# 隔离 Apple 审核材料（避免误将含个人联系方式等隐私材料提交到静态站仓库）
+apple-review/
+acceptance/
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+
+# 运行时日志
+*.log
+
+# 提示：若实际部署的 app-ads.txt 需本地维护且不想提交至公开仓库，可取消下行注释
+# /app-ads.txt
