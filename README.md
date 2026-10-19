@@ -1,5 +1,7 @@
 # 九格突围官网
 
+英文品牌 NonaGrid，简体九格突围、繁体九格突圍；应用内标题随语言切换。截图已按本次改名重新构建拍摄，来源记录同步更新。
+
 本地静态站，面向 `https://jiumen.funvalvar.com`，开发者 Funvalvar，支持邮箱 funvalvar@proton.me。没有框架、构建依赖、外部字体、统计或广告脚本。
 
 ## 本地预览
