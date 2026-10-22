@@ -1,0 +1,5 @@
+# Keep release evidence and local instructions out of the published Pages site.
+exclude:
+  - README.md
+  - acceptance
+  - app-ads.txt.example
